@@ -1,12 +1,12 @@
 ﻿Param
 (
     [Parameter(ParameterSetName='Setting', Mandatory=$true)]
-	[String]
-	$UserName,
+    [String]
+    $UserName,
 
     [Parameter(ParameterSetName='Setting', Mandatory=$true)]
-	[String]
-	$Password,
+    [String]
+    $Password,
 
     [Parameter(ParameterSetName='Setting')]
     [String]

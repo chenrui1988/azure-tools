@@ -1,15 +1,15 @@
 ﻿Param
 (
     [Parameter(ParameterSetName='Setting', Mandatory=$true)]
-	[String]
-	$SubscriptionId,
+    [String]
+    $SubscriptionId,
 
     [Parameter(ParameterSetName='Setting', Mandatory=$true)]
-	[String]
-	$UserName,
+    [String]
+    $UserName,
 
     [Parameter(ParameterSetName='Setting', Mandatory=$true)]
-	[String]
+    [String]
 	$Password,
 
     [Parameter(ParameterSetName='Setting', Mandatory=$true)]
